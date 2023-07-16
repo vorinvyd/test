@@ -1,0 +1,157 @@
+<!--
+ Quara Theme by OllieJW (https://olliejw.me)
+ License - https://olliejw.me/tos
+--> 
+
+<!DOCTYPE html>
+<head>
+  <link rel="icon" href="img/favicon.png">
+  <title>Vorinvyd: официальный сайт</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="title" content="Vorinvyd">
+  <meta name="description" content="Ламповый майнкрафт сервер, с элементами рп, и представляющий собой целую страну со своими законами и порядками">
+  <meta name="keywords" content="Minecraft, Server, Vorinvyd, Multiplayer">
+  <meta name="theme-color" content="#4bb4f1">
+
+  <!-- Edit this to change staff cards! -->
+
+
+  <!--
+	Notice:
+	When you make changes to config,
+	add ?v and a random number to config.css/js
+	Example: <link rel="stylesheet" href="config.css?v=100">
+  -->
+  <!-- Put this script tag to the <head> of your page -->
+  <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+
+  <div id="vk_community_messages"></div>
+  <script type="text/javascript">
+   VK.Widgets.CommunityMessages("vk_community_messages", 197044256, {tooltipButtonText: "Есть вопрос?", expanded: 1});
+  </script>
+  
+  <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+  <script type="text/javascript">
+    VK.Widgets.Group("vk_groups", {mode: 4, wide: 1, width: 1200,height: 800, color1: "34393e", color2: "fff", color3: "5181B8"}, 197044256);
+  </script>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
+   
+  <script src="js/main.js"></script>
+  <script src="config.js"></script>
+  
+  <script>tosAgreed = true</script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="config.css">
+</head>
+
+<body>
+
+  <div id="target"></div>
+
+  <script id="template" type="text/x-handlebars-template">
+
+  <header>
+    <div class="hero" id="hero">
+      <a href="https://vorinvyd.ga"><h1 style="padding-top: 3%;"><img src="img/logo.png" width="50%"></h1></a>
+  <p></p>
+	<div class="news-card" align="center">
+      <a href="#about" class="btn"><i class="fa-solid fa-table-list"></i> Информация</a>
+	  <a href="#personal" class="btn"><i class="fa-solid fa-user"></i> Персонал</a>
+	  <a href="#news" class="btn"><i class="fa-solid fa-newspaper"></i> Новости</a>
+	  <a href="#social" class="btn"><i class="fa-solid fa-share"></i> Соцсети</a>
+    </div>
+  <p> </p>
+	</div>
+  </header>
+   
+  <section class="dark" id="about">
+    <h1><i class="fa-solid fa-table-list"></i> Информация</h1>
+	<p>
+      <strong>🌐 О нас</strong>
+	  Vorinvyd - ламповый майнкрафт сервер, с элементами рп, и представляющий собой целую страну со своими законами и порядками.
+	  <br>
+	  <br>
+	  • 1.20.1<br>
+	  • Поддержка Minecraft Bedrock<br>
+	  • 20 TPS и 24/7<br>
+	  • Кастомные крафты<br>
+	  • Плагин на кастомные пластинки<br>
+	  • Плагин на поры года<br>
+	  • Плагин на картины<br>
+	  • Плагин на напитки<br>
+	  • Невидимые рамки<br>
+	  • Войс-чат<br>
+	  • Добрая, но справедливая администрация<br>
+      <br>
+	  И много чего ещё.!
+	  <br>
+	  <br>
+	  <iframe style="width:728px;height:90px;max-width:100%;border:none;display:block;margin:auto" src="https://ru.namemc.com/server/play.vorinvyd.fun/embed" width="728" height="90"></iframe>
+    </p>
+	<p> </p>
+	<div>
+	<a href="http://store.vorinvyd.fun/" class="btn3"><i class="fa-solid fa-store"></i> Магазин</a>
+	<a href="https://wiki.vorinvyd.fun/" class="btn3"><i class="fa-solid fa-book"></i> Вики</a>
+	</div>
+  </section>
+
+  <section class="light" id="personal">
+    <h1><i class="fa-solid fa-user"></i> Персонал</h1>
+	<div class="grid">
+	<div class="staff-card shrink">
+	  <a class="glava">Админ</a>
+	  <p> </p>
+      <img src="players/MomentariyModder.png" width="50%">
+      <h3>MomentariyModder</h3>
+    </div>
+	<div class="staff-card shrink">
+	  <a class="glava">Админ</a><a class="glava">Лор Админ</a>
+	  <p> </p>
+      <img src="players/CuSO4K.png" width="50%">
+      <h3>CuSO4K</h3>
+    </div>
+	<div class="staff-card shrink">
+	  <a class="glava">Лор Админ</a>
+	  <p> </p>
+      <img src="players/Kritter.png" width="50%">
+      <h3>Kritter</h3>
+    </div>
+	<div class="staff-card shrink">
+	  <a class="glava">Лор Админ</a>
+	  <p> </p>
+      <img src="players/_Farah__.png" width="50%">
+      <h3>_Farah__</h3>
+    </div>
+	</div>
+  </section>
+
+  <section class="dark">
+    <h1><i class="fa-solid fa-newspaper"></i> Новости</h1>
+    <div id="news">
+    <div id="vk_groups"></div>
+    </div>
+  </section>
+
+  <section class="light">
+    <h1><i class="fa-solid fa-share"></i> Соцсети</h1>
+    <div class="buttons" id="social">
+      <a href="https://discord.com/invite/x5uHZ5CEtE" class="btn">Discord</a>
+      <a href="https://vk.com/vorinvyd" class="btn">Группа ВК</a>
+	  <a href="https://www.tiktok.com/@vorinvyd" class="btn">TikTok</a>
+	  <a href="https://t.me/vorinvyd" class="btn">Telegram</a>
+    </div>
+  </section>
+  
+  
+  <footer>
+    <a><b>&copy;</b> <b>{{server_name}}</b> 2023. Все права защищены.</br>Проект <b>{{server_name}}</b> не относится к <b>Mojang Studios</b>.</a>
+	<a><img alt="12+" title="12+" src="img/12+.png" style="height:4em"></a>
+  </footer>
+  </script>
+  
+</body>

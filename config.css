@@ -1,0 +1,48 @@
+/*!
+ * Quara Theme by OllieJW (https://olliejw.me)
+ * License - https://olliejw.me/tos
+ */
+
+:root {
+  --dark-color: #24272b; /* Colour of dark section */
+  --dark-text-color: #fff; /* Colour of text in dark section */
+  
+  --donate-color: #ff9800; /* Colour of dark section */
+  --donate-text-color: #fff; /* Colour of text in dark section */
+  
+  --light-color: #34393e; /* Colour of light section */
+  --light-text-color: #fff; /* Colour of text in light section */
+  
+  --button-color: #24272b;  
+  --button-text-color: #fff;  
+  --button-hover-color: #2b6ed9;  
+  --button-hover-text-color: #fff; 
+  
+  --button2-color: #fff;  
+  --button2-text-color: #24272b;  
+  --button2-hover-color: #fff;  
+  --button2-hover-text-color: #2b6ed9;  
+  
+  --button3-color: #34393e;  
+  --button3-text-color: #fff;  
+  --button3-hover-color: #2b6ed9;  
+  --button3-hover-text-color: #fff;
+  
+  --glava-color: #99aab5;
+  --techadm-color: #D3723C;
+  --gladmin-color: #DB3B3B;
+  --mladmin-color: #3498DB;
+  --moder-color: #030303;
+  
+  --active-color: #00FF00;
+  --noactive-color: #8B0000;
+  
+  --info-color: #4bb4f1; /* Colour of important text (Player count, IP) */
+  
+  --pinned-message-color: #222426; /* Colour pinned message section */
+  --pinned-message-text-color: #fff; /* Colour of text in pinned message section */
+  --pinned-button-color: #2e3032; /* Colour of button in pinned message section */
+  --pinned-button-text-color: #fff; /* Colour of text in button in pinned message section */
+  --pinned-button-hover-color: #b32a3d; /* Colour of button in pinned message section when hovered over */ 
+  --pinned-button-hover-text-color: #fff; /* Colour of text in button in pinned message section when hovered over */
+}
